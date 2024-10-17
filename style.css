@@ -96,10 +96,13 @@ body{
         color: #F4F4F4;
         font-size: 15px;
         font-style: italic;
-        padding-right: 10px;
-        text-align: right;
+        padding-right: 0px;
+        text-align: center;
     }
-    
+    .same-line{
+        display: inline;
+        
+    }
     .button-container {
         display: flex;
         justify-content: center;
@@ -127,10 +130,10 @@ body{
     }
     .button-container1 {
         display: flex;
-        justify-content: right;
+        justify-content: center;
         width: 100%;
         margin-bottom: 20px;
-        padding-right: 70px;
+        padding-right: 0px;
     
     }
     .button-container :hover {
@@ -139,8 +142,8 @@ body{
     }
     
     .button-container1 :hover {
-        color: #0056b3;
-        background-color: #ffffff;
+        color: #b6c7da;
+        background-color: #8b8b8b;
     }
     
     .button1 {
