@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 
 *{
     margin: 0;
@@ -7,8 +9,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-color: #28b793;
-    background: linear-gradient(to right, #01226498, #022a67);
+    background-color: #1d2951;
+    background: linear-gradient(to right, #0a0a2b,#001f3f);
+    line-height: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +19,9 @@ body{
     height: 100vh;
 }
 .container{
-    background-color: #000000a8 ;
+    background-color: #1a1a2e;
+    padding: 20px;
+
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
@@ -33,13 +38,16 @@ body{
     color: #F4F4F4;
 }
 .remember:hover{
-    color: #9a24d6;
+    color: #007bff;
 }
 .container h1{
     text-align: center;
     color: #F4F4F4;
-    letter-spacing: 0.3px;
+    letter-spacing: 1.4px;
     margin: 20px 0;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:'Roboto',sans-serif;
     
 }
 
@@ -50,27 +58,27 @@ body{
     
     .social-icons a{
         border: 1px solid #F4F4F4;
-        border-radius: 20%;
+        border-radius: circle 20%;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         margin: 0 3px;
         width: 40px;
         height: 40px;
-        color: #9a24d6;
+        color: #0056b3;
         
     }
     .social-icons :hover{
-        background-color: #9a24d6;
-        color: #000000a8;
+        background-color: #0056b3;
+        color: #e0e0e0;
     }
     .line-container {
         display: flex;
         align-items: center;
         text-align: center;
         margin: 20px 0;
-        font-size: 12px;
-        color: white;
+        font-size: 0.85rem;
+        color: #dcdcdc;
 
     }
     .line-container::before,
@@ -100,13 +108,13 @@ body{
     }
     
     .button {
-        background-color: #9a24d6;
+        background-color: #0056b3;
+
         color: #F4F4F4;
         width: 120px;
         height: 50px;
         border-radius: 10px;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-        font-size: 15px;
         font-weight: 500;
         letter-spacing: 0.5px;
         text-transform: uppercase;
@@ -114,6 +122,8 @@ body{
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        font-family: 'montserrat',sans-serif;
+        font-size: 1rem;
     }
     .button-container1 {
         display: flex;
@@ -123,29 +133,33 @@ body{
         padding-right: 70px;
     
     }
-    .button-container :hover{
-        color: #9a24d6;
-        background-color: #50246561;
+    .button-container :hover {
+        color: #0056b3;
+        background-color: #ffffff;
     }
-    .button-container1 :hover{
-        color: #9a24d6;
-        background-color: #50246561;
+    
+    .button-container1 :hover {
+        color: #0056b3;
+        background-color: #ffffff;
     }
+    
     .button1 {
-        background-color: #9a24d6;
+        background-color: #007bff;
+
         color: #F4F4F4;
         width: 60px;
         height: 30px;
         border-radius: 7px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         font-size: 11px;
-        font-weight: 100;
+        font-weight: 500;
         letter-spacing: 0.5px;
         text-transform: uppercase;
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        font-family: 'montserrat',sans-serif;
     }
     
     .inline-inputs {
@@ -172,7 +186,7 @@ body{
         padding-right: 20px;
     }
     .forgot-password:hover{
-        color: #9a24d6;
+        color: #007bff;
     }
     .form1{
         justify-content: center;
@@ -181,9 +195,10 @@ body{
     border-radius: 10px;
     margin: 8px 0;
     padding: 10px;
-    font-size: 13px;
+    font-size: 0.9rem;
     width: 95%;
     outline: none;
+    font-family: 'roboto',sans-serif;
         
     }
     /*to add roll number*/
