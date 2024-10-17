@@ -24,11 +24,16 @@ body{
     width: 768px;
     max-width: 100%;
     min-height: 300px;
+
 }
 .remember{
+    margin-top: 20px;
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
     color: #F4F4F4;
+}
+.remember:hover{
+    color: #9a24d6;
 }
 .container h1{
     text-align: center;
@@ -52,6 +57,12 @@ body{
         margin: 0 3px;
         width: 40px;
         height: 40px;
+        color: #9a24d6;
+        
+    }
+    .social-icons :hover{
+        background-color: #9a24d6;
+        color: #000000a8;
     }
     .line-container {
         display: flex;
@@ -73,7 +84,13 @@ body{
     .line-container:not(:empty)::after {
         margin-left: 10px;
     }
-    
+    .Already{
+        color: #F4F4F4;
+        font-size: 15px;
+        font-style: italic;
+        padding-right: 10px;
+        text-align: right;
+    }
     
     .button-container {
         display: flex;
@@ -83,7 +100,7 @@ body{
     }
     
     .button {
-        background-color: navy;
+        background-color: #9a24d6;
         color: #F4F4F4;
         width: 120px;
         height: 50px;
@@ -103,20 +120,28 @@ body{
         justify-content: right;
         width: 100%;
         margin-bottom: 20px;
-        padding-right: 20px;
+        padding-right: 70px;
     
     }
+    .button-container :hover{
+        color: #9a24d6;
+        background-color: #50246561;
+    }
+    .button-container1 :hover{
+        color: #9a24d6;
+        background-color: #50246561;
+    }
     .button1 {
-        background-color: rgba(16, 73, 216, 0.662);
+        background-color: #9a24d6;
         color: #F4F4F4;
         width: 60px;
-        height: 25px;
-        border-radius: 6px;
+        height: 30px;
+        border-radius: 7px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        font-size: 13px;
-        font-weight: 200;
-        letter-spacing: 0.2px;
-        text-transform: capitalize;
+        font-size: 11px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -145,6 +170,9 @@ body{
         text-align: right;
         text-decoration: none;
         padding-right: 20px;
+    }
+    .forgot-password:hover{
+        color: #9a24d6;
     }
     .form1{
         justify-content: center;
